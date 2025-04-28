@@ -9,7 +9,7 @@ from skimage.measure import find_contours
 
 
 
-def genNoiseMap(width, height, scale=0.04, octaves=2, persistence=0.6, lacunarity=3):
+def genNoiseMap(width, height, scale=0.04, octaves=2, persistence=0.6, lacunarity=2):
     """
     Generate a 2D OpenSimplex noise grid.
 
